@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://images.unsplash.com/photo-1576495199011-eb94736d05d6?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+h2{
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-align: center;
+}
+.clock{
+    display: flex;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: auto;
+}
+.clock div{
+    margin: 5px;
+    text-align: center;
+}
+.clock span{
+    width: auto;
+    height: auto;
+    background-color: rgb(176, 179, 31);
+    opacity: .8;
+    color: rgb(8, 0, 0);
+    display: flex;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+.clock .text{
+    height: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: yellow;
+    opacity: 0.8;
+}
+.clock #ampm{
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: yellow;
+}
+
+.center{
+    width: 100vw;
+    height: 100vh;
+    padding-left: 30%;
+    padding-top: 10%;
+}
+/* responsive web design */
+@media screen and (max-width:570px) {
+    h2{
+        text-align: center;
+        font-size: 120%;
+    }
+    .center{
+        padding-left: 5%;
+        padding-top: 10%;
+    }
+
+}
